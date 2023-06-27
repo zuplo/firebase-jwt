@@ -158,22 +158,8 @@ export default function Home() {
           <div className="rounded-b bg-gray-200 p-4">
             <div className="text-gray-600 text-xs pb-2">INSTRUCTIONS</div>
             <ol>
-              <li>
-                1. Enter your Supabase URL and <b>anon</b> key.
-              </li>
-              <li>
-                2. Add{" "}
-                <span
-                  className="font-mono text-xs text-yellow-600"
-                  onDoubleClick={(evt) => {
-                    window.getSelection()?.selectAllChildren(evt.target as any);
-                  }}
-                >
-                  https://firebasejwt.com
-                </span>{" "}
-                to your redirect domains.
-              </li>
-              <li>3. Choose your providers below and login 👏</li>
+              <li>1. Enter your Fireabase project Web API Key.</li>
+              <li>2. Create an account and login 👏</li>
             </ol>
           </div>
         </div>
@@ -277,7 +263,7 @@ export default function Home() {
           </a>{" "}
           - a free, serverless API gateway. Get the{" "}
           <a
-            href="https://github.com/zuplo/supabase-jwt"
+            href="https://github.com/zuplo/firebase-jwt"
             className="text-pink-500 hover:underline"
           >
             source and contribute on GitHub
