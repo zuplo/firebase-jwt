@@ -195,7 +195,7 @@ export default function Home() {
             <div>
               <div className="font-bold">E-mail</div>
               <input
-                type="text"
+                type="password"
                 className="rounded border-gray-500 border w-full font-mono p-1 text-sm"
                 value={form.email}
                 onChange={(evt) => updateField("email", evt.target.value)}
